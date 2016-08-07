@@ -1,0 +1,2 @@
+# moveCollectionViewCell
+CollectionViewCell的拖动排序以及模仿格瓦拉界面动画效果
