@@ -40,8 +40,8 @@
 
     _dataArr = [[NSMutableArray alloc]init];
     self.view.backgroundColor = [UIColor whiteColor];
-    for (NSInteger i = 1; i <= 20; i++) {
-        NSString *photoName = [NSString stringWithFormat:@"%ld.jpg",(long)i];
+    for (NSInteger i = 1; i <= 12; i++) {
+        NSString *photoName = [NSString stringWithFormat:@"%ld.JPG",(long)i];
         UIImage *photo = [UIImage imageNamed:photoName];
         [_dataArr addObject:photo];
     }
